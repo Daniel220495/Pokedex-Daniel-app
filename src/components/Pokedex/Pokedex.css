@@ -1,0 +1,53 @@
+.Header-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  background-image: url('../../../public/Pokemon-Background-Free-Download.jpg');
+}
+
+/* Header */
+.pokedex-header {
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+.pokedex-header h2 {
+  font-size: 1.75rem;
+  color: #1f2937;
+}
+
+/* Formulario de búsqueda y filtro */
+.pokedex-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.pokedex-input {
+  padding: 0.5rem 1rem;
+  width: 250px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.pokedex-select {
+  padding: 0.5rem 1rem;
+  width: 250px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+/* Responsive para pantallas más grandes */
+@media (min-width: 640px) {
+  .pokedex-form {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
